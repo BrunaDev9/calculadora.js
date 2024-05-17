@@ -23,15 +23,15 @@ form.addEventListener('submit',function(event){
     value.classList.add('normal');
 
   }  else if ( bmi >= 25 && bmi <= 30){
-    description =  "Cuidado voce esta acima do peso";
+    description =  "Cuidado você esta acima do peso";
 
   } else if ( bmi >= 30 && bmi <= 35){
-    description =  "Cuidado voce esta com obesidade leve!";
+    description =  "Cuidado você esta com obesidade leve!";
 
   }else if ( bmi >= 35 && bmi <= 40){
-    description =  "Cuidado voce esta obesidade morbida!";
+    description =  "Cuidado você esta com obesidade morbida!";
   } else {
-    description =  "Cuidado voce esta com obesidade severa!";
+    description =  "Cuidado você esta com obesidade severa!";
   }
 
     
